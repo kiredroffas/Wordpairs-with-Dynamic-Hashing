@@ -24,7 +24,7 @@ The source code is broken into two main source files: main.c and sortHash.c. Mai
 
 The assert() function is used where appropriate.
 
-All error output is printed to stderr, with the program exiting with a zero exit code if no errors occur.
+The program exits with a zero exit code if no errors occur.
 
 A makefile is included to build the program and clean .o files, with the path of the getWord file requiring modification depending on its filepath.
 
